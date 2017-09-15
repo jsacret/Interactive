@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interactive.Model", "Interactive.Entities\Interactive.Model.csproj", "{410ED9FF-C22D-4993-9E2C-C944784B49ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Architecture", "Architecture", "{9FB3D460-6036-4EF5-9AD6-3ABA7FFA0D23}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{EED7E803-C93A-47E2-BC44-A13671AF6E50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interactive.Tests", "Interactive.Tests\Interactive.Tests.csproj", "{0ED24CD7-5667-47A6-882F-9FC70CFC9116}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{410ED9FF-C22D-4993-9E2C-C944784B49ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{410ED9FF-C22D-4993-9E2C-C944784B49ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{410ED9FF-C22D-4993-9E2C-C944784B49ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{410ED9FF-C22D-4993-9E2C-C944784B49ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ED24CD7-5667-47A6-882F-9FC70CFC9116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ED24CD7-5667-47A6-882F-9FC70CFC9116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ED24CD7-5667-47A6-882F-9FC70CFC9116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ED24CD7-5667-47A6-882F-9FC70CFC9116}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{410ED9FF-C22D-4993-9E2C-C944784B49ED} = {9FB3D460-6036-4EF5-9AD6-3ABA7FFA0D23}
+		{0ED24CD7-5667-47A6-882F-9FC70CFC9116} = {EED7E803-C93A-47E2-BC44-A13671AF6E50}
+	EndGlobalSection
+EndGlobal
