@@ -7,8 +7,8 @@
     <ProjectGuid>{410ED9FF-C22D-4993-9E2C-C944784B49ED}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Interactive.Entities</RootNamespace>
-    <AssemblyName>Interactive.Entities</AssemblyName>
+    <RootNamespace>Interactive.Model</RootNamespace>
+    <AssemblyName>Interactive.Model</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
